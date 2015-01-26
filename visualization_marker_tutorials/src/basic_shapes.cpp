@@ -68,7 +68,7 @@ int main( int argc, char** argv )
     marker.type = shape;
 // %EndTag(TYPE)%
 
-    // Set the marker action.  Options are ADD and DELETE
+    // Set the marker action.  Options are ADD, DELETE, and new in ROS Indigo: 3 (DELETEALL)
 // %Tag(ACTION)%
     marker.action = visualization_msgs::Marker::ADD;
 // %EndTag(ACTION)%
@@ -105,6 +105,15 @@ int main( int argc, char** argv )
 
     // Publish the marker
 // %Tag(PUBLISH)%
+    while (marker_pub.getNumSubscribers() < 1)
+    {
+      if (!ros::ok())
+      {
+        return 0;
+      }
+      ROS_WARN_ONCE("Please create a subscriber to the marker");
+      sleep(1);
+    }
     marker_pub.publish(marker);
 // %EndTag(PUBLISH)%
 
