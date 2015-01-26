@@ -1,3 +1,30 @@
+## visualization_tutorials (indigo) - 0.9.1-0
+
+The packages in the `visualization_tutorials` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo visualization_tutorials` on `Mon, 26 Jan 2015 18:50:27 -0000`
+
+These packages were released:
+- `interactive_marker_tutorials`
+- `librviz_tutorial`
+- `rviz_plugin_tutorials`
+- `rviz_python_tutorial`
+- `visualization_marker_tutorials`
+- `visualization_tutorials`
+
+Version of package(s) in repository `visualization_tutorials`:
+- upstream repository: https://github.com/ros-visualization/visualization_tutorials.git
+- release repository: https://github.com/ros-gbp/visualization_tutorials-release.git
+- rosdistro version: `0.9.0-0`
+- old version: `0.9.0-0`
+- new version: `0.9.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.16`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## visualization_tutorials (indigo) - 0.9.0-0
 
 User `william@dosa.local` released the packages in the `visualization_tutorials` repository into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo visualization_tutorials -n` on `Tue, 25 Mar 2014 04:06:05 -0000`
