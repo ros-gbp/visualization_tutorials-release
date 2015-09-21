@@ -1,3 +1,30 @@
+## visualization_tutorials (jade) - 0.9.2-0
+
+The packages in the `visualization_tutorials` repository were released into the `jade` distro by running `/usr/local/bin/bloom-release -r jade -t jade visualization_tutorials` on `Mon, 21 Sep 2015 17:52:19 -0000`
+
+These packages were released:
+- `interactive_marker_tutorials`
+- `librviz_tutorial`
+- `rviz_plugin_tutorials`
+- `rviz_python_tutorial`
+- `visualization_marker_tutorials`
+- `visualization_tutorials`
+
+Version of package(s) in repository `visualization_tutorials`:
+- upstream repository: https://github.com/ros-visualization/visualization_tutorials.git
+- release repository: https://github.com/ros-gbp/visualization_tutorials-release.git
+- rosdistro version: `0.9.1-0`
+- old version: `0.9.1-0`
+- new version: `0.9.2-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.37`
+
+
 ## visualization_tutorials (indigo) - 0.9.2-0
 
 The packages in the `visualization_tutorials` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo visualization_tutorials` on `Mon, 21 Sep 2015 17:24:52 -0000`
