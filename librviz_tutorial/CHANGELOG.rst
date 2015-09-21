@@ -2,6 +2,9 @@
 Changelog for package librviz_tutorial
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.9.2 (2015-09-21)
+------------------
+
 0.9.1 (2015-01-26)
 ------------------
 * Renamed a CMake variable to avoid colliding with built-in name.
