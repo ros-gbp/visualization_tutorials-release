@@ -1,3 +1,32 @@
+## visualization_tutorials (kinetic) - 0.10.0-0
+
+The packages in the `visualization_tutorials` repository were released into the `kinetic` distro by running `/usr/local/bin/bloom-release -r kinetic -t kinetic visualization_tutorials` on `Thu, 21 Apr 2016 20:55:26 -0000`
+
+These packages were released:
+- `interactive_marker_tutorials`
+- `librviz_tutorial`
+- `rviz_plugin_tutorials`
+- `rviz_python_tutorial`
+- `visualization_marker_tutorials`
+- `visualization_tutorials`
+
+Version of package(s) in repository `visualization_tutorials`:
+
+- upstream repository: https://github.com/ros-visualization/visualization_tutorials.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.10.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.4`
+- vcstools version: `0.1.38`
+
+
 ## visualization_tutorials (jade) - 0.9.2-0
 
 The packages in the `visualization_tutorials` repository were released into the `jade` distro by running `/usr/local/bin/bloom-release -r jade -t jade visualization_tutorials` on `Mon, 21 Sep 2015 17:52:19 -0000`
