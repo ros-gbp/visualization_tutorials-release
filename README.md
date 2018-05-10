@@ -1,3 +1,32 @@
+## visualization_tutorials (lunar) - 0.10.3-0
+
+The packages in the `visualization_tutorials` repository were released into the `lunar` distro by running `/usr/local/opt/python2/Frameworks/Python.framework/Versions/2.7/bin/bloom-release -r lunar -t lunar visualization_tutorials` on `Thu, 10 May 2018 03:26:25 -0000`
+
+These packages were released:
+- `interactive_marker_tutorials`
+- `librviz_tutorial`
+- `rviz_plugin_tutorials`
+- `rviz_python_tutorial`
+- `visualization_marker_tutorials`
+- `visualization_tutorials`
+
+Version of package(s) in repository `visualization_tutorials`:
+
+- upstream repository: https://github.com/ros-visualization/visualization_tutorials.git
+- release repository: https://github.com/ros-gbp/visualization_tutorials-release.git
+- rosdistro version: `0.10.2-0`
+- old version: `0.10.2-0`
+- new version: `0.10.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.2`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## visualization_tutorials (kinetic) - 0.10.3-0
 
 The packages in the `visualization_tutorials` repository were released into the `kinetic` distro by running `/usr/local/opt/python2/Frameworks/Python.framework/Versions/2.7/bin/bloom-release -r kinetic -t kinetic visualization_tutorials` on `Thu, 10 May 2018 00:56:27 -0000`
