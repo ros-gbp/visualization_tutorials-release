@@ -1,0 +1,12 @@
+Source: ros-kinetic-rviz-python-tutorial
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-rviz
+Homepage: http://ros.org/wiki/rviz_python_tutorial
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rviz-python-tutorial
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-rviz
+Description: Tutorials showing how to call into rviz internals from python scripts.
