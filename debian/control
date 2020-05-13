@@ -1,0 +1,12 @@
+Source: ros-melodic-librviz-tutorial
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-melodic-catkin, ros-melodic-roscpp, ros-melodic-rviz
+Homepage: http://ros.org/wiki/librviz_tutorial
+Standards-Version: 3.9.2
+
+Package: ros-melodic-librviz-tutorial
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, libqt5widgets5, ros-melodic-roscpp, ros-melodic-rviz
+Description: Tutorial showing how to compile your own C++ program with RViz displays and features.
