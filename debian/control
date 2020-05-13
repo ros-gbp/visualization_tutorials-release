@@ -1,0 +1,12 @@
+Source: ros-melodic-visualization-tutorials
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://ros.org/wiki/visualization_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-melodic-visualization-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-interactive-marker-tutorials, ros-melodic-librviz-tutorial, ros-melodic-rviz-plugin-tutorials, ros-melodic-rviz-python-tutorial, ros-melodic-visualization-marker-tutorials
+Description: Metapackage referencing tutorials related to rviz and visualization.
