@@ -1,3 +1,32 @@
+## visualization_tutorials (noetic) - 0.10.4-1
+
+The packages in the `visualization_tutorials` repository were released into the `noetic` distro by running `/usr/local/bin/bloom-release -r noetic -t noetic visualization_tutorials` on `Wed, 13 May 2020 09:08:03 -0000`
+
+These packages were released:
+- `interactive_marker_tutorials`
+- `librviz_tutorial`
+- `rviz_plugin_tutorials`
+- `rviz_python_tutorial`
+- `visualization_marker_tutorials`
+- `visualization_tutorials`
+
+Version of package(s) in repository `visualization_tutorials`:
+
+- upstream repository: https://github.com/ros-visualization/visualization_tutorials.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.10.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.16`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## visualization_tutorials (lunar) - 0.10.3-0
 
 The packages in the `visualization_tutorials` repository were released into the `lunar` distro by running `/usr/local/opt/python2/Frameworks/Python.framework/Versions/2.7/bin/bloom-release -r lunar -t lunar visualization_tutorials` on `Thu, 10 May 2018 03:26:25 -0000`
