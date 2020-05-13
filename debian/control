@@ -1,0 +1,12 @@
+Source: ros-kinetic-interactive-marker-tutorials
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-interactive-markers, ros-kinetic-roscpp, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Homepage: http://ros.org/wiki/interactive_marker_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-interactive-marker-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-interactive-markers, ros-kinetic-roscpp, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Description: The interactive_marker_tutorials package
