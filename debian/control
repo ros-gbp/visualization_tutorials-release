@@ -1,0 +1,12 @@
+Source: ros-noetic-librviz-tutorial
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-noetic-catkin, ros-noetic-roscpp, ros-noetic-rviz
+Homepage: http://ros.org/wiki/librviz_tutorial
+Standards-Version: 3.9.2
+
+Package: ros-noetic-librviz-tutorial
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, libqt5widgets5, ros-noetic-roscpp, ros-noetic-rviz
+Description: Tutorial showing how to compile your own C++ program with RViz displays and features.
