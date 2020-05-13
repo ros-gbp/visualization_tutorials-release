@@ -3,7 +3,7 @@
 ## TeleopPanel tutorial and the ImuDisplay tutorial.
 ##
 ## First start with some standard catkin stuff.
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.0.2)
 project(rviz_plugin_tutorials)
 find_package(catkin REQUIRED COMPONENTS rviz)
 catkin_package()
@@ -80,5 +80,5 @@ install(DIRECTORY media/
 install(DIRECTORY icons/
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/icons)
 
-install(PROGRAMS scripts/send_test_msgs.py
+catkin_install_python(PROGRAMS scripts/send_test_msgs.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
