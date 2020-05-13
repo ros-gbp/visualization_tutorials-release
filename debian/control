@@ -1,0 +1,12 @@
+Source: ros-noetic-interactive-marker-tutorials
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-interactive-markers, ros-noetic-roscpp, ros-noetic-tf, ros-noetic-visualization-msgs
+Homepage: http://ros.org/wiki/interactive_marker_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-noetic-interactive-marker-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-interactive-markers, ros-noetic-roscpp, ros-noetic-tf, ros-noetic-visualization-msgs
+Description: The interactive_marker_tutorials package
