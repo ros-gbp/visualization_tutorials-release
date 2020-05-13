@@ -1,0 +1,12 @@
+Source: ros-noetic-visualization-tutorials
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://ros.org/wiki/visualization_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-noetic-visualization-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-interactive-marker-tutorials, ros-noetic-librviz-tutorial, ros-noetic-rviz-plugin-tutorials, ros-noetic-rviz-python-tutorial, ros-noetic-visualization-marker-tutorials
+Description: Metapackage referencing tutorials related to rviz and visualization.
