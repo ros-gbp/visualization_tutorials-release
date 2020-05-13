@@ -1,0 +1,12 @@
+Source: ros-melodic-rviz-python-tutorial
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-rviz
+Homepage: http://ros.org/wiki/rviz_python_tutorial
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rviz-python-tutorial
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-rviz
+Description: Tutorials showing how to call into rviz internals from python scripts.
