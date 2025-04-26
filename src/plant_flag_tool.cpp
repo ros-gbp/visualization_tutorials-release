@@ -194,6 +194,12 @@ int PlantFlagTool::processMouseEvent( rviz::ViewportMouseEvent& event )
 // This is a helper function to create a new flag in the Ogre scene and save its scene node in a list.
 void PlantFlagTool::makeFlag( const Ogre::Vector3& position )
 {
+  if( rviz::loadMeshFromResource( flag_resource_ ).isNull() )
+  {
+    ROS_ERROR( "PlantFlagTool: failed to load model resource '%s'.", flag_resource_.c_str() );
+    return;
+  }
+
   Ogre::SceneNode* node = scene_manager_->getRootSceneNode()->createChildSceneNode();
   Ogre::Entity* entity = scene_manager_->createEntity( flag_resource_ );
   node->attachObject( entity );
@@ -288,6 +294,6 @@ void PlantFlagTool::load( const rviz::Config& config )
 
 } // end namespace rviz_plugin_tutorials
 
-#include <pluginlib/class_list_macros.h>
+#include <pluginlib/class_list_macros.hpp>
 PLUGINLIB_EXPORT_CLASS(rviz_plugin_tutorials::PlantFlagTool,rviz::Tool )
 // END_TUTORIAL
