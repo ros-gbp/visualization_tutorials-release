@@ -246,7 +246,7 @@ public:
         interactive_markers::makeArrow( int_marker, control, 0.5 * sign );
 
         int_marker.controls.push_back( control );
-        server_->insert( int_marker, boost::bind( &PointCouldSelector::processAxisFeedback, this, _1 ) );
+        server_->insert( int_marker, [this](auto feedback){ processAxisFeedback(feedback); } );
       }
     }
   }
