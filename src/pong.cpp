@@ -388,13 +388,13 @@ private:
     int_marker.name = "paddle0";
     int_marker.pose.position.x = -PLAYER_X;
     server_.insert( int_marker );
-    server_.setCallback( int_marker.name, boost::bind( &PongGame::processPaddleFeedback, this, 0, _1 ) );
+    server_.setCallback( int_marker.name, [this](auto feedback){ processPaddleFeedback(0, feedback); } );
 
     // Control for player 2
     int_marker.name = "paddle1";
     int_marker.pose.position.x = PLAYER_X;
     server_.insert( int_marker );
-    server_.setCallback( int_marker.name, boost::bind( &PongGame::processPaddleFeedback, this, 1, _1 ) );
+    server_.setCallback( int_marker.name, [this](auto feedback){ processPaddleFeedback(1, feedback); } );
 
     // Make display markers
     marker.scale.x = BORDER_SIZE;
